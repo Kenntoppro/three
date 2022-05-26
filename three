@@ -1,0 +1,10 @@
+tir = int(input('Введите номер месяца: '))
+rib = int(input('Введите день: '))
+if tir == 1 and rib == 1:
+   print('Новый год')
+if tir == 3 and rib == 8:
+   print('8 марта')
+if tir == 2 and rib == 23:
+   print('День защитника Отечества')
+else:
+   print('Обычный день')
